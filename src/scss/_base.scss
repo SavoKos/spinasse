@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  color: #fff;
+  font-family: 'Prata', sans-serif;
+  overflow-x: hidden;
+  background-color: #232323;
+  background-image: url('/src/img/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.transition-fade {
+  transform: translateX(0);
+  transition: 0.5s;
+}
+
+html.is-animating .transition-fade {
+  transform: translateX(100%);
+}

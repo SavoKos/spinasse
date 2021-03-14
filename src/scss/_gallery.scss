@@ -1,0 +1,10 @@
+.gallery-container {
+  display: flex;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    max-width: 25%;
+  }
+}
